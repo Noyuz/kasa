@@ -1,0 +1,22 @@
+.rating-wrapper {
+  margin-bottom: 1em;
+  display: flex;
+  gap: 0.4em;
+}
+
+.svg-inline--fa.filled-icon,
+.svg-inline--fa.empty-icon {
+  font-size: 2em;
+}
+
+@media screen and (max-width: 768px) {
+
+  .svg-inline--fa.filled-icon,
+  .svg-inline--fa.empty-icon {
+    font-size: 1em;
+  }
+
+  .rating-wrapper {
+    margin: 0;
+  }
+}
